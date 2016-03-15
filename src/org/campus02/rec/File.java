@@ -29,7 +29,7 @@ public class File extends FSEntry {
 
 	@Override
 	public void print() {
-		System.out.println(getName()+"."+getExtension()+" : "+ getSize()+" MB");
+		System.out.println(getName()+"."+getExtension()+ "" +": " +"\t"+ getSize()+" MB");
 	}
 
 }

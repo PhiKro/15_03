@@ -31,10 +31,12 @@ public class DemoFilesFolders {
 		
 		root.putEntry(archive);
 		
-		//photos.print();
-		//photos.printAll();
+		// photos.print();
+		// root.printAll();
 		
-		root.listAllContent("root");
+		// root.listAllContent("");
+		
+		root.printTree("");
 
 	}
 
